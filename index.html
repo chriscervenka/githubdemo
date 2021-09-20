@@ -298,11 +298,75 @@
             </div>
         </div>
 
-        <p class="footer__copy">
-            <a href="http://" class="footer__copy-link">AGB's</a> |
-            <a href="http://" class="footer__copy-link">Datenschutz</a> |
-            <a href="http://" class="footer__copy-link">Impressum</a>
-        </p>
+        <div class="footer-wrapper">
+            <p class="footer__copy">
+                <a href="http://" class="footer__copy-link hover hover-1">AGB's</a>
+            </p>
+            
+            <p class="footer__copy">
+                <a href="http://" class="footer__copy-link hover hover-2">Datenschutz</a>
+            </p>
+            
+            <p class="footer__copy">
+                <a href="http://" class="footer__copy-link hover hover-3">Impressum</a>
+            </p>
+        </div>
+        
+        <style>
+            .footer-wrapper {
+                display: flex;
+                justify-content: center;
+            }
+
+            .footer__copy {
+                margin-top: 9rem;
+                margin-left: .5rem;
+                margin-right: .5rem;
+            }
+
+            .hover {
+                font-size: 1rem;
+                text-align: center;
+                margin: 0 auto;
+                padding: 0;
+                transition: all 0.2s ease-in-out;
+                position: relative;
+            }
+
+            .hover:before, .hover:after {
+                content: "";
+                position: absolute;
+                bottom: -5px;
+                width: 0px;
+                height: 2px;
+                margin: 5px 0 0;
+                transition: all 0.2s ease-in-out;
+                transition-duration: 0.75s;
+                opacity: 0;
+                background-color: var(--black-color-alt);
+            }
+
+            .hover.hover-1:before, .hover.hover-1:after {
+                left: 0;
+            }
+
+            .hover.hover-2:before, .hover.hover-2:after {
+                left: 0;
+            }
+
+            .hover.hover-3:before, .hover.hover-3:after {
+                left: 0;
+            }
+
+            .footer__copy:hover {
+                cursor: pointer;
+            }
+            .footer__copy:hover .hover:before, .footer__copy:hover .hover:after {
+                width: 100%;
+                opacity: 1;
+            }
+
+        </style>
 
         <p class="footer__copy">
             <a href="#" target="_blank" class="footer__copy-link">All right reserved</a>
