@@ -1,0 +1,18 @@
+1. How to add an existing vs code project to git and github
+2. How to commit and push whenever changes happen
+3. How to clone from github to vs code
+4. How to remove project from git
+
+Step 1 : Install git
+Step 2 : Create account on github - https://github.com
+Step 3 : Create a repository on github & copy url
+Step 4 : Goto VS Code and open project/folder
+NOTE: check git is enabled from stettigs (VS Code)
+Step 5 : Goto source-control section & click on git icon
+Step 6 : Give commit message & commit the changes
+Step 7 : Add remote repo (github repo)
+Step 8 : Push commited changes to github repo
+Step 9 : Check changes on github repo
+
+
+SOURCE: https://www.youtube.com/watch?v=Fk12ELJ9Bww
