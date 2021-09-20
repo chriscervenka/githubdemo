@@ -32,14 +32,14 @@
     /*========== Font weight ==========*/
     --font-medium: 500;
     --font-semi-bold: 600;
-    /*========== Margenes Bottom ==========*/
+    /*========== Margin Bottom ==========*/
     --mb-0-5: .5rem;
     --mb-0-75: .75rem;
     --mb-1: 1rem;
     --mb-1-5: 1.5rem;
     --mb-2: 2rem;
     --mb-2-5: 2.5rem;
-    /*========== z index ==========*/
+    /*========== Z index ==========*/
     --z-tooltip: 10;
     --z-fixed: 100;
 }
@@ -147,7 +147,7 @@
     background: transparent;
   }
 
-/*=============== NAV ===============*/
+/*=============== NAVIGATION ===============*/
 .nav {
     height: var(--header-height);
     display: flex;
@@ -220,7 +220,7 @@
     top: 0;
 }
 
-/* Change background header */
+/* change background header */
 .scroll-header {
   background-color: var(--body-color);
 }
